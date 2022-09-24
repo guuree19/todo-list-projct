@@ -1,5 +1,4 @@
 const router = require('express').Router()
-
 const Todo = require('../models/Todo')
 
 
@@ -47,6 +46,5 @@ router.delete('/:id' ,(req, res) => {
         res.json({message: error})
     })
 })
-
 
 module.exports = router
