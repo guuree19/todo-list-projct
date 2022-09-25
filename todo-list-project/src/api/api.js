@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/todo";
+const API_URL = "http://localhost:27017/todo";
 // get data from the back-end
 export async function getTodosAPI() {
   return fetch(API_URL)
